@@ -22,9 +22,21 @@ int main() {
     int j = 0;
     printf("Movimneto da Rainha\n");
     do{
-        printf("esquerda\n");
+        int k = 0;
+        while (k < 1) {
+            printf("esquerda\n");
+            k++;
+        }
         j++;
-    } while(j < movimentoRainha);
+    } while (j < movimentoRainha);
+    //Movimneto do cavalo
+    printf("\n");
+    printf("Movimento do cavalo\n");
+    for(int passo = 0; passo < 1; passo++){
+        for(int cima = 0;cima < 2; cima++){
+            printf("cima\n");
+        } printf("esquerda\n");
+    }
    
 
     return 0;
